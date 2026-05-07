@@ -40,3 +40,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 });
 
+document.querySelectorAll('.fade-up').forEach(el => {
+    el.classList.add('active');
+});
